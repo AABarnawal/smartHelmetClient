@@ -42,11 +42,11 @@ function App() {
     const fetchData = async () => {
       const audioElement = new Audio(audioUrl);
       try {
-        const response = await fetch('https://smarthelmetserver.onrender.com/api/send',{ method: 'GET', mode: 'no-cors' });
-        // const response = await axios.get('https://smarthelmetserver.onrender.com/api/send');
-        // const result = response.data; // Axios automatically parses JSON response
+        // const response = await fetch('https://smarthelmetserver.onrender.com/api/send');
+        const response = await axios.get('https://smarthelmetserver.onrender.com/api/send');
+        const result = response.data; // Axios automatically parses JSON response
         // console.log(result);
-        const result = await response.json();
+        // const result = await response.json();
         console.log(result);
         if (!result && flag==0 ) {
           audioElement.play();
