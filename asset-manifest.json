@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/smartHelmetClient/static/css/main.7756d1da.css",
+    "main.js": "/smartHelmetClient/static/js/main.7342c0bd.js",
+    "static/media/Beep.mp3": "/smartHelmetClient/static/media/Beep.31200a7e737c3af53c8e.mp3",
+    "index.html": "/smartHelmetClient/index.html",
+    "main.7756d1da.css.map": "/smartHelmetClient/static/css/main.7756d1da.css.map",
+    "main.7342c0bd.js.map": "/smartHelmetClient/static/js/main.7342c0bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7756d1da.css",
+    "static/js/main.7342c0bd.js"
+  ]
+}
