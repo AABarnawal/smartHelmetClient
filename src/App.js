@@ -41,7 +41,7 @@ function App() {
     const fetchData = async () => {
       const audioElement = new Audio(audioUrl);
       try {
-        const response = await fetch('http://localhost:8080/api/send');
+        const response = await fetch('https://smarthelmetserver.onrender.com/api/send');
         const result = await response.json();
         console.log(result);
         if (!result && flag==0 ) {
